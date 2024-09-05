@@ -1,0 +1,862 @@
+{
+    "kind": "youtube#searchListResponse",
+    "etag": "AARlkR914wPhE0wnRIzw6V6-Xk4",
+    "nextPageToken": "CBkQAA",
+    "regionCode": "KR",
+    "pageInfo": {
+        "totalResults": 242109,
+        "resultsPerPage": 25
+    },
+    "items": [
+        {
+            "kind": "youtube#searchResult",
+            "etag": "eAMVQQ1e-4HrQQHTalOMymuG1ko",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "3gSbGPI7TJs"
+            },
+            "snippet": {
+                "publishedAt": "2024-09-04T05:00:04Z",
+                "channelId": "UCQ2O-iftmnlfrBuNsUUTofQ",
+                "title": "알바가 체질2",
+                "description": "서진이네2 #이서진 #정유미 #박서준 #최우식 #고민시 찬바람 부는 북유럽에서 맛보는 '뜨~끈한 뚝배기 한 그릇' 아이슬란드에 오픈한 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/3gSbGPI7TJs/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/3gSbGPI7TJs/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/3gSbGPI7TJs/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "채널십오야",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-09-04T05:00:04Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "qixJJUZZJAHjVujPtBSRa2Etoq0",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "a2-5AenAsZo"
+            },
+            "snippet": {
+                "publishedAt": "2024-09-04T05:00:00Z",
+                "channelId": "UCQ2O-iftmnlfrBuNsUUTofQ",
+                "title": "알바가 체질1",
+                "description": "서진이네2 #이서진 #정유미 #박서준 #최우식 #고민시 찬바람 부는 북유럽에서 맛보는 '뜨~끈한 뚝배기 한 그릇' 아이슬란드에 오픈한 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/a2-5AenAsZo/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/a2-5AenAsZo/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/a2-5AenAsZo/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "채널십오야",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-09-04T05:00:00Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "PMeWvFXCGbF9JWarbf1plCjmohg",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "4wsNUiNQVp8"
+            },
+            "snippet": {
+                "publishedAt": "2024-09-03T09:45:38Z",
+                "channelId": "UCQ2O-iftmnlfrBuNsUUTofQ",
+                "title": "💬나영서ㄱ으ㅣ 거;품가품",
+                "description": "소통의신 #GodofCommunication.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/4wsNUiNQVp8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/4wsNUiNQVp8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/4wsNUiNQVp8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "채널십오야",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-09-03T09:45:38Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "GV059SuOVqrHogwRv0KTRXd_TxI",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "lfPJ4AH4tHI"
+            },
+            "snippet": {
+                "publishedAt": "2024-09-03T09:45:34Z",
+                "channelId": "UCQ2O-iftmnlfrBuNsUUTofQ",
+                "title": "💬4학년 9반 N석이들 체험판",
+                "description": "소통의신 #GodofCommunication.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/lfPJ4AH4tHI/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/lfPJ4AH4tHI/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/lfPJ4AH4tHI/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "채널십오야",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-09-03T09:45:34Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "Q-qrWz0CQ3M3I-0_ANcXtndHtVQ",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "CursGjTydZs"
+            },
+            "snippet": {
+                "publishedAt": "2024-08-31T05:00:06Z",
+                "channelId": "UCQ2O-iftmnlfrBuNsUUTofQ",
+                "title": "🍽11화 예고ㅣ이제는 말할 수 있다ㅣ서진이네2",
+                "description": "서진이네2 #이서진 #정유미 #박서준 #최우식 #고민시 찬바람 부는 북유럽에서 맛보는 '뜨~끈한 뚝배기 한 그릇' 아이슬란드에 오픈한 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/CursGjTydZs/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/CursGjTydZs/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/CursGjTydZs/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "채널십오야",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-08-31T05:00:06Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "M9EqqF1ywZIBerpwrJMu6uw_fAc",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "lIqNvg_kzow"
+            },
+            "snippet": {
+                "publishedAt": "2024-08-30T09:00:53Z",
+                "channelId": "UCQ2O-iftmnlfrBuNsUUTofQ",
+                "title": "세계최초로 피디 팬미팅을 열게 된 이유ㅣ ☎소통의신",
+                "description": "준비는 열심히 하고 있는데 진짜로 안 와도 괜찮아 10/5 (토) 6시 명화라이브홀에서 하는데 진짜 안 와도 괜찮아 #채널십오야 #십오야 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/lIqNvg_kzow/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/lIqNvg_kzow/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/lIqNvg_kzow/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "채널십오야",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-08-30T09:00:53Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "GBpm5dXH1jCeU9Wdj1s1ljKcLhY",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "8KvT6PshIHA"
+            },
+            "snippet": {
+                "publishedAt": "2024-08-30T05:00:06Z",
+                "channelId": "UCQ2O-iftmnlfrBuNsUUTofQ",
+                "title": "🏡티저ㅣ10주년 스페셜 에디션으로 인사드립니다ㅣ삼시세끼 Light",
+                "description": "삼시세끼Light #차승원 #유해진 10년째 같이 밥 먹는 사이! 차승원 x 유해진의 삼시세끼 스페셜 에디션 tvN 삼시세끼 Light 9/20 (금) ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/8KvT6PshIHA/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/8KvT6PshIHA/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/8KvT6PshIHA/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "채널십오야",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-08-30T05:00:06Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "JT8zf4sHYCN9sT8v5BvLy-tA5nM",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "AX-awZaIUlU"
+            },
+            "snippet": {
+                "publishedAt": "2024-08-28T09:04:22Z",
+                "channelId": "UCQ2O-iftmnlfrBuNsUUTofQ",
+                "title": "엔젤이 되어 돌아온 호준이와 근황 토크 | 🎥라이브 짧게보기",
+                "description": "에그고 '그' 선배와 타키온 호준의 과거부터 근황까지 #채널십오야 #손호준 #엔젤스인아메리카 #나영석팬미팅.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/AX-awZaIUlU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/AX-awZaIUlU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/AX-awZaIUlU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "채널십오야",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-08-28T09:04:22Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "31wBhC-ZUR1p8Xa1-BDdppecFcA",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "Xpo7zr2wBMc"
+            },
+            "snippet": {
+                "publishedAt": "2024-08-28T03:00:21Z",
+                "channelId": "UCQ2O-iftmnlfrBuNsUUTofQ",
+                "title": "설거지는 나PD",
+                "description": "서진이네2 #이서진 #정유미 #박서준 #최우식 #고민시 찬바람 부는 북유럽에서 맛보는 '뜨~끈한 뚝배기 한 그릇' 아이슬란드에 오픈한 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Xpo7zr2wBMc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Xpo7zr2wBMc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Xpo7zr2wBMc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "채널십오야",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-08-28T03:00:21Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "536aQn-oyUl0LsAmgub5eatGuas",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "Ydf_WGrrnoM"
+            },
+            "snippet": {
+                "publishedAt": "2024-08-28T03:00:22Z",
+                "channelId": "UCQ2O-iftmnlfrBuNsUUTofQ",
+                "title": "차이브 최우식",
+                "description": "서진이네2 #이서진 #정유미 #박서준 #최우식 #고민시 찬바람 부는 북유럽에서 맛보는 '뜨~끈한 뚝배기 한 그릇' 아이슬란드에 오픈한 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Ydf_WGrrnoM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Ydf_WGrrnoM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Ydf_WGrrnoM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "채널십오야",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-08-28T03:00:22Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "TlLXS4SswfJhiuyp1SEvz2KSA9w",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "V6Gn5Q4bS2Q"
+            },
+            "snippet": {
+                "publishedAt": "2024-08-28T03:00:17Z",
+                "channelId": "UCQ2O-iftmnlfrBuNsUUTofQ",
+                "title": "한국어 마스터",
+                "description": "서진이네2 #이서진 #정유미 #박서준 #최우식 #고민시 찬바람 부는 북유럽에서 맛보는 '뜨~끈한 뚝배기 한 그릇' 아이슬란드에 오픈한 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/V6Gn5Q4bS2Q/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/V6Gn5Q4bS2Q/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/V6Gn5Q4bS2Q/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "채널십오야",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-08-28T03:00:17Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "fOVaTO_XtQCG_ZgWWfq_F7PDrj4",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "m9eSXl8ksAg"
+            },
+            "snippet": {
+                "publishedAt": "2024-08-27T09:34:15Z",
+                "channelId": "UCQ2O-iftmnlfrBuNsUUTofQ",
+                "title": "🧑‍🏫에그 사우들 운동신경 절망편 (※직장인 평균 주의※)",
+                "description": "에그문화센터 #EggArtsCenter.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/m9eSXl8ksAg/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/m9eSXl8ksAg/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/m9eSXl8ksAg/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "채널십오야",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-08-27T09:34:15Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "aNdYQveRb4ksmiWNOEkTbSwARnI",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "P2hQE0nb0CI"
+            },
+            "snippet": {
+                "publishedAt": "2024-08-27T09:33:28Z",
+                "channelId": "UCQ2O-iftmnlfrBuNsUUTofQ",
+                "title": "🧑‍🏫 직장인 필수 운동 딱 2가지만 따라 하세요!",
+                "description": "에그문화센터 #EggArtsCenter.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/P2hQE0nb0CI/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/P2hQE0nb0CI/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/P2hQE0nb0CI/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "채널십오야",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-08-27T09:33:28Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "mzlmURrGo0x8xO-L8GmGic9l3Pw",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "JCC1sl7vPtA"
+            },
+            "snippet": {
+                "publishedAt": "2024-08-24T05:00:10Z",
+                "channelId": "UCQ2O-iftmnlfrBuNsUUTofQ",
+                "title": "🍽 10화 예고ㅣ민시 선배, 설거지 여기서 하면 돼요?ㅣ서진이네2",
+                "description": "서진이네2 #이서진 #정유미 #박서준 #최우식 #고민시 찬바람 부는 북유럽에서 맛보는 '뜨~끈한 뚝배기 한 그릇' 아이슬란드에 오픈한 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/JCC1sl7vPtA/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/JCC1sl7vPtA/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/JCC1sl7vPtA/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "채널십오야",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-08-24T05:00:10Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "GyZ9cmREG028vI_iJCrjgwubJVw",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "Ng7wK4plgYk"
+            },
+            "snippet": {
+                "publishedAt": "2024-08-23T09:00:19Z",
+                "channelId": "UCQ2O-iftmnlfrBuNsUUTofQ",
+                "title": "(김)계란이 왔어요~ 마법처럼 건강해지는 시간ㅣ🏢에그문화센터",
+                "description": "오늘의 강의평가 평균별점 4.75/5 : 자 따라 해보세요 X2 참 쉽죠? : 으억 어억     아악     #채널 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Ng7wK4plgYk/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Ng7wK4plgYk/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Ng7wK4plgYk/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "채널십오야",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-08-23T09:00:19Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "PPAF5dcoziiY2qxpYLvXA6Xhhfo",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "Cy0YfYAicM4"
+            },
+            "snippet": {
+                "publishedAt": "2024-08-21T09:00:10Z",
+                "channelId": "UCQ2O-iftmnlfrBuNsUUTofQ",
+                "title": "나SSN을 찾아오신 SBN들과 [유어아너] 1화 보기 | 🎥라이브 짧게보기",
+                "description": "선배님들... 저 연기가 너무 하고싶습니다...! #채널십오야 #손현주 #김명민 #유어아너 #유료광고포함.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Cy0YfYAicM4/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Cy0YfYAicM4/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Cy0YfYAicM4/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "채널십오야",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-08-21T09:00:10Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "YQbdeo93w7E_j871LU1NtqbjuSE",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "noMl6a_n0SE"
+            },
+            "snippet": {
+                "publishedAt": "2024-08-20T09:42:54Z",
+                "channelId": "UCQ2O-iftmnlfrBuNsUUTofQ",
+                "title": "🤐고도의 연출과 메소드 연기로 만들어진 명언 TIME",
+                "description": "나영석의지글지글 #SizzlingwithNah.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/noMl6a_n0SE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/noMl6a_n0SE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/noMl6a_n0SE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "채널십오야",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-08-20T09:42:54Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "g6v3V0edee9GuzNvkpkE5HMWmx4",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "rt07ZC47dQg"
+            },
+            "snippet": {
+                "publishedAt": "2024-08-20T09:42:48Z",
+                "channelId": "UCQ2O-iftmnlfrBuNsUUTofQ",
+                "title": "🤐차승원 曰 “열심히만 해서는 안 돼”",
+                "description": "나영석의지글지글 #SizzlingwithNah.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/rt07ZC47dQg/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/rt07ZC47dQg/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/rt07ZC47dQg/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "채널십오야",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-08-20T09:42:48Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "P78Iz6GsioHr4KGMCL96hM2QtaI",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "9-qsccL_83M"
+            },
+            "snippet": {
+                "publishedAt": "2024-08-20T06:49:54Z",
+                "channelId": "UCQ2O-iftmnlfrBuNsUUTofQ",
+                "title": "[라이브] 엔젤 호준이와 수다 라이브 (and... 약간의 팬미팅 story)",
+                "description": "손호준 #엔젤스_인_아메리카 #퓰리처상_수상_극 #프라이어월터 #그리고 #에그고_팬미팅 #당신의_선배에_투표해주세요 #많관부.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/9-qsccL_83M/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/9-qsccL_83M/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/9-qsccL_83M/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "채널십오야",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-08-20T06:49:54Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "QG6x6xeWCyGJKFrxNJX3ELxvsA4",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "ZrqlV5b7Rsw"
+            },
+            "snippet": {
+                "publishedAt": "2024-08-19T00:00:16Z",
+                "channelId": "UCQ2O-iftmnlfrBuNsUUTofQ",
+                "title": "[EN/CN/JP/IND] D-45",
+                "description": "월요병 퇴치 하세요.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/ZrqlV5b7Rsw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/ZrqlV5b7Rsw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/ZrqlV5b7Rsw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "채널십오야",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-08-19T00:00:16Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "DKfOreQ8fOF-b4kBSEIKdv3htn0",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "h-XCpon8B5k"
+            },
+            "snippet": {
+                "publishedAt": "2024-08-16T09:00:44Z",
+                "channelId": "UCQ2O-iftmnlfrBuNsUUTofQ",
+                "title": "삼시세끼 아니구 지글지글 | 👅나영석의 지글지글",
+                "description": "시청 전 필기 준비 필수 수다 폭군피셜 방대한 정보의 바다 주의 ⚠️수많은 명언과 맛집 리스트 출몰 예정 #채널십오야 #지글지글 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/h-XCpon8B5k/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/h-XCpon8B5k/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/h-XCpon8B5k/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "채널십오야",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-08-16T09:00:44Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "LF8wsHu9Yqkip9EJ3A4_FPQolTM",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "362uw6ww9tc"
+            },
+            "snippet": {
+                "publishedAt": "2024-08-14T01:31:40Z",
+                "channelId": "UCQ2O-iftmnlfrBuNsUUTofQ",
+                "title": "🤐다니엘X혜인 당근 이겨! 영석X해린 나쁘지🙅‍♀️ 뉴진스피드게임 2탄",
+                "description": "나영석의지글지글 #SizzlingwithNah.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/362uw6ww9tc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/362uw6ww9tc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/362uw6ww9tc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "채널십오야",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-08-14T01:31:40Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "ShPnDn98hYoTrHJ287oaXynCwsg",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "BYZUG7bc-jA"
+            },
+            "snippet": {
+                "publishedAt": "2024-08-14T01:31:00Z",
+                "channelId": "UCQ2O-iftmnlfrBuNsUUTofQ",
+                "title": "🤐민지X하니 빵사즈의 뉴진스피드게임 1탄",
+                "description": "나영석의지글지글 #SizzlingwithNah.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/BYZUG7bc-jA/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/BYZUG7bc-jA/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/BYZUG7bc-jA/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "채널십오야",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-08-14T01:31:00Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "8Ca_bdOOLRPleIdF1-VepL3jZs8",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "uOr0iC4330U"
+            },
+            "snippet": {
+                "publishedAt": "2024-08-14T01:30:12Z",
+                "channelId": "UCQ2O-iftmnlfrBuNsUUTofQ",
+                "title": "🤐들꽃반 선생님과 뉴쪽이들",
+                "description": "나영석의지글지글 #SizzlingwithNah.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/uOr0iC4330U/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/uOr0iC4330U/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/uOr0iC4330U/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "채널십오야",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-08-14T01:30:12Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "M2rQTIqBtGuLddzjMo3aMcrRBJU",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "wBRZ-59JXLI"
+            },
+            "snippet": {
+                "publishedAt": "2024-08-13T12:02:47Z",
+                "channelId": "UCQ2O-iftmnlfrBuNsUUTofQ",
+                "title": "[라이브] 유어 아너 손현주x김명민 라이브",
+                "description": "유어아너 #손현주 #김명민 #1화_리뷰라이브 #지니티비 #ENA #매주_월화_밤10시 #명배우들_대격돌.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/wBRZ-59JXLI/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/wBRZ-59JXLI/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/wBRZ-59JXLI/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "채널십오야",
+                "liveBroadcastContent": "none",
+                "publishTime": "2024-08-13T12:02:47Z"
+            }
+        }
+    ]
+}

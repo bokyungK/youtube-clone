@@ -1,0 +1,44 @@
+{
+    "kind": "youtube#channelListResponse",
+    "etag": "IeYWmwseD3fFpOnFjBIqr7sT_CE",
+    "pageInfo": {
+        "totalResults": 1,
+        "resultsPerPage": 5
+    },
+    "items": [
+        {
+            "kind": "youtube#channel",
+            "etag": "lSVV5yR47NPJNoBshJEV1tDaZfY",
+            "id": "UCQ2O-iftmnlfrBuNsUUTofQ",
+            "snippet": {
+                "title": "채널십오야",
+                "description": "채널십오야는 한가위 달처럼 따스하고 풍성한 콘텐츠가 가득한 창작소입니다. 다양한 창작자들의 알찬 콘텐츠를 기대해주세요🥚💖 #사랑합니다구독감사합니다\n\n- 광고/출연/제휴/홍보 문의 eggppl@eggiscoming.com\n- 자료사용 문의 eggzip@eggiscoming.com \n- 마케팅/커머스/기타 문의 egg@eggiscoming.com\n**각 팀별 문의 유형이 맞지 않은 메일의 경우, 답변이 어려울 수 있습니다.\n",
+                "customUrl": "@15ya.fullmoon",
+                "publishedAt": "2019-05-15T19:43:51Z",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://yt3.ggpht.com/wnt29XdPZ4hm1u0LaHOXOf9tCnu_Rt4AmQHsSrRSmKwdkPmV1daA7GvdLMSoUCHpaWsM9yMaCw4=s88-c-k-c0x00ffffff-no-rj",
+                        "width": 88,
+                        "height": 88
+                    },
+                    "medium": {
+                        "url": "https://yt3.ggpht.com/wnt29XdPZ4hm1u0LaHOXOf9tCnu_Rt4AmQHsSrRSmKwdkPmV1daA7GvdLMSoUCHpaWsM9yMaCw4=s240-c-k-c0x00ffffff-no-rj",
+                        "width": 240,
+                        "height": 240
+                    },
+                    "high": {
+                        "url": "https://yt3.ggpht.com/wnt29XdPZ4hm1u0LaHOXOf9tCnu_Rt4AmQHsSrRSmKwdkPmV1daA7GvdLMSoUCHpaWsM9yMaCw4=s800-c-k-c0x00ffffff-no-rj",
+                        "width": 800,
+                        "height": 800
+                    }
+                },
+                "defaultLanguage": "ko",
+                "localized": {
+                    "title": "채널십오야",
+                    "description": "채널십오야는 한가위 달처럼 따스하고 풍성한 콘텐츠가 가득한 창작소입니다. 다양한 창작자들의 알찬 콘텐츠를 기대해주세요🥚💖 #사랑합니다구독감사합니다\n\n- 광고/출연/제휴/홍보 문의 eggppl@eggiscoming.com\n- 자료사용 문의 eggzip@eggiscoming.com \n- 마케팅/커머스/기타 문의 egg@eggiscoming.com\n**각 팀별 문의 유형이 맞지 않은 메일의 경우, 답변이 어려울 수 있습니다.\n"
+                },
+                "country": "KR"
+            }
+        }
+    ]
+}

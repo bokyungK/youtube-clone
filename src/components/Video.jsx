@@ -1,97 +1,60 @@
 import React from 'react';
 import { useLocation, Link } from 'react-router-dom';
 import { useQuery } from '@tanstack/react-query';
-import setVideoTime from '../utils/setVideoTime';
+import Channel from './Channel';
+import VideoCard from './VideoCard';
+import axios from 'axios';
 
 export default function Video() {
     const { state } = useLocation();
     const { channelTitle, title, id, channelId, description, tags } = state;
-
-    // 채널 정보 호출
-    const { data: channelData, error: channelError } = useQuery({
-        queryKey: ['channel'],
-        queryFn: async () => {
-            // const url = `https://youtube.googleapis.com/youtube/v3/channels?part=snippet&id=${channelId}&key=[key]`;
-            const url = '/data/channelList.json';
-            const res = await fetch(url);
-            return await res.json();
-        },
-        staleTime: 900000,
-    })
-
-    // 채널 영상 호출
     const { data: videoData, error: videoError } = useQuery({
         queryKey: ['video'],
         queryFn: async () => {
             // const url = `https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=25&channelId=${channelId}&order=date&type=video&key=[key]`;
             const url = '/data/channelVideoList.json';
-            const res = await fetch(url);
-            return await res.json();
+            return axios.get(url).then(res => res.data.items)
         },
         staleTime: 900000,
     })
 
-    if (channelData && videoData) {
-        return (
-            <div className='flex py-[20px] text-white flex-col md:flex-row'>
-                <section className='w-full mb-[15px] md:w-[674px] lg:flex-1'>
-                    <div className='w-full pb-[56.25%] relative mb-[15px]'>
-                        <iframe width="560" height="315" src={`https://www.youtube.com/embed/${id}`} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen className='mb-[15px] w-full h-full absolute'></iframe>
-                    </div>
-                    <div className='px-[15px]'>
-                        <p className="font-bold break-all text-lg mb-[15px]">{title}</p>
-                        <div className='mb-[15px] text-sm flex items-center'>
-                            <img className='w-[30px] h-[30px] mr-[10px] rounded-full' src={channelData.items[0].snippet.thumbnails.default.url} alt="" />
-                            <p className='text-lg'>{channelTitle}</p>
-                        </div>
-                        <ul className='break-all text-sm text-ellipsis line-clamp-3 text-zinc-300 mb-[10px]'>
-                            {
-                                tags && tags.map((txt) => {
-                                    return <li className='mr-[5px] inline-block' key={txt}>#{txt}</li>
-                                })
-                            }
-                        </ul>
-                        <p className='text-sm break-all'>{description}</p>
-                    </div>
-                </section>
-                <section className='w-full px-[15px] md:flex-1 lg:flex-none lg:w-[350px]'>
-                    <ul>
+    return (
+        <div className='flex py-[20px] text-white flex-col md:flex-row'>
+            <section className='w-full mb-[15px] md:w-[674px] lg:flex-1'>
+                <div className='w-full pb-[56.25%] relative mb-[15px]'>
+                    <iframe width="560" height="315" src={`https://www.youtube.com/embed/${id}`} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen className='mb-[15px] w-full h-full absolute'></iframe>
+                </div>
+                <div className='px-[15px]'>
+                    <p className="font-bold break-all text-lg mb-[15px]">{title}</p>
+                    <Channel channelTitle={channelTitle} channelId={channelId} />
+                    <ul className='break-all text-sm text-ellipsis line-clamp-3 text-zinc-300 mb-[10px]'>
                         {
-                            videoData.items.map((video) => {
-                                const id = video.id.videoId;
-                                const { thumbnails, publishTime, title, channelTitle, channelId, description } = video.snippet;
-                                const channelInfo = {
-                                    channelTitle,
-                                    title,
-                                    id,
-                                    channelId,
-                                    description,
-                                    tags
-                                }
-                            
-                                return (
-                                    <Link to={`/video/${id}`} key={id} state={channelInfo}>
-                                        <li className='flex mb-[5px]'>
-                                            <img src={thumbnails.medium.url} alt="thumbnail image" className='mr-[10px] w-[132.5px] xs:w-[200px] md:w-[132.5px]'/>
-                                            <div className='w-[50%] flex-1'>
-                                                <p className='text-xs font-semibold mb-[5px] text-ellipsis line-clamp-2 break-all'>{title}</p>
-                                                <div className='text-zinc-300'>
-                                                    <p className='text-xs mb-[5px] line-clamp-1'>{channelTitle}</p>
-                                                    <p className='text-xs line-clamp-1'>{setVideoTime(publishTime)}</p>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </Link>
-                                )
+                            tags && tags.map((txt) => {
+                                return <li className='mr-[5px] inline-block' key={txt}>#{txt}</li>
                             })
                         }
                     </ul>
-                </section>
-            </div>
-        );
-    } else if (channelError && videoError) {
-        return  (
-            <div className='text-white my-[20px]'>일시적인 페이지 오류가 발생했습니다.</div>
-        )
-    }
+                    <pre className='text-sm break-all whitespace-pre-wrap'>{description}</pre>
+                </div>
+            </section>
+            <section className='w-full px-[15px] md:flex-1 lg:flex-none lg:w-[350px]'>
+                <ul>
+                    {
+                        videoData && videoData.map((video) => {
+                            const id = video.id.videoId;
+                        
+                            return (
+                                <Link to={`/video/${id}`} key={id} state={{...video.snippet, id}}>
+                                    <VideoCard video={video.snippet} />
+                                </Link>
+                            )
+                        })
+                    }
+                    {
+                        videoError && <div className='text-white'>관련 영상을 불러오는데 일시적인 오류가 발생했습니다.</div>
+                    }
+                </ul>
+            </section>
+        </div>
+    );
 }

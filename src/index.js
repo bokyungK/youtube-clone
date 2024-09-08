@@ -3,11 +3,40 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import ScrollToTop from './components/ScrollToTop';
+import VideoList from './components/VideoList';
+import Video from './components/Video';
+
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: (
+      <>
+        <ScrollToTop />
+        <App />
+      </>
+    ),
+    children: [
+      { index: '/',
+        element: <VideoList/>
+      },
+      {
+        path: '/result/:search',
+        element: <VideoList/>
+      },
+      {
+        path: '/video/:id',
+        element: <Video />
+      },
+    ]
+  }
+])
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 

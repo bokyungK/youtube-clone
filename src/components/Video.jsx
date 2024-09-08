@@ -33,8 +33,8 @@ export default function Video() {
 
     if (channelData && videoData) {
         return (
-            <div className='flex py-[20px] text-white max-[680px]:flex-col'>
-                <section className='flex-1 mr-[10px] max-[768px]:flex-none max-[768px]:w-[483px] max-[680px]:w-full max-[680px]:mb-[15px]'>
+            <div className='flex py-[20px] text-white flex-col md:flex-row'>
+                <section className='w-full mb-[15px] md:w-[674px] lg:flex-1'>
                     <div className='w-full pb-[56.25%] relative mb-[15px]'>
                         <iframe width="560" height="315" src={`https://www.youtube.com/embed/${id}`} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen className='mb-[15px] w-full h-full absolute'></iframe>
                     </div>
@@ -54,7 +54,7 @@ export default function Video() {
                         <p className='text-sm break-all'>{description}</p>
                     </div>
                 </section>
-                <section className='w-[275px] max-[680px]:w-full max-[680px]:px-[15px]'>
+                <section className='w-full px-[15px] md:flex-1 lg:flex-none lg:w-[350px]'>
                     <ul>
                         {
                             videoData.items.map((video) => {
@@ -72,8 +72,8 @@ export default function Video() {
                                 return (
                                     <Link to={`/video/${id}`} key={id} state={channelInfo}>
                                         <li className='flex mb-[5px]'>
-                                            <img src={thumbnails.medium.url} alt="thumbnail image" className='w-[132.5px] mr-[10px] max-[680px]:w-[200px]'/>
-                                            <div className='w-[50%]'>
+                                            <img src={thumbnails.medium.url} alt="thumbnail image" className='mr-[10px] w-[132.5px] xs:w-[200px] md:w-[132.5px]'/>
+                                            <div className='w-[50%] flex-1'>
                                                 <p className='text-xs font-semibold mb-[5px] text-ellipsis line-clamp-2 break-all'>{title}</p>
                                                 <div className='text-zinc-300'>
                                                     <p className='text-xs mb-[5px] line-clamp-1'>{channelTitle}</p>

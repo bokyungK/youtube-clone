@@ -8,7 +8,8 @@ export default function Header() {
 
     const handleSearch = (e) => {
         e.preventDefault();
-        navigate(`/result/${search}`);
+
+        if (search) navigate(`/result/${search}`);
     }
 
     const handleChange = (e) => {

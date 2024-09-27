@@ -6,11 +6,9 @@ export default function Channel({ channelTitle, channelId }) {
     const { data: videoData } = useQuery({
         queryKey: ['channel'],
         queryFn: async () => {
-            // const url = `https://youtube.googleapis.com/youtube/v3/channels?part=snippet&id=${channelId}&key=[key]`;
-            const url = '/data/channelList.json';
+            const url = `https://youtube.googleapis.com/youtube/v3/channels?part=snippet&id=${channelId}&key=${process.env.REACT_APP_API_KEY}`;
             return axios.get(url).then(res => res.data.items[0])
         },
-        staleTime: 900000,
     })
 
     return (

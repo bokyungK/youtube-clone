@@ -4,6 +4,7 @@ import { useQuery } from '@tanstack/react-query';
 import Channel from './Channel';
 import VideoCard from './VideoCard';
 import axios from 'axios';
+import he from 'he';
 
 export default function Video() {
     const { state } = useLocation();
@@ -11,8 +12,7 @@ export default function Video() {
     const { data: videoData, error: videoError } = useQuery({
         queryKey: ['video'],
         queryFn: async () => {
-            // const url = `https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=25&channelId=${channelId}&order=date&type=video&key=[key]`;
-            const url = '/data/channelVideoList.json';
+            const url = `https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=25&channelId=${channelId}&order=date&type=video&key=${process.env.REACT_APP_API_KEY}`;
             return axios.get(url).then(res => res.data.items)
         },
         staleTime: 900000,
@@ -25,12 +25,12 @@ export default function Video() {
                     <iframe width="560" height="315" src={`https://www.youtube.com/embed/${id}`} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen className='mb-[15px] w-full h-full absolute'></iframe>
                 </div>
                 <div className='px-[15px]'>
-                    <p className="font-bold break-all text-lg mb-[15px]">{title}</p>
+                    <p className="font-bold break-all text-lg mb-[15px]">{he.decode(title)}</p>                    
                     <Channel channelTitle={channelTitle} channelId={channelId} />
                     <ul className='break-all text-sm text-ellipsis line-clamp-3 text-zinc-300 mb-[10px]'>
                         {
                             tags && tags.map((txt) => {
-                                return <li className='mr-[5px] inline-block' key={txt}>#{txt}</li>
+                                return <li className='mr-[5px] inline-block' key={txt}>#{he.decode(txt)}</li>
                             })
                         }
                     </ul>

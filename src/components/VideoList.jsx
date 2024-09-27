@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { useQuery } from '@tanstack/react-query';
 import { useParams, Link } from 'react-router-dom';
 import VideoCard from './VideoCard';
@@ -6,15 +6,16 @@ import axios from 'axios';
 
 export default function VideoList() {
     const { search } = useParams();
-    const { data: videoData, isLoading, isError } = useQuery({
+    const { data: videoData, isError } = useQuery({
         queryKey: ['main', search],
         queryFn: async () => {
-            // const url = search ? `https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=25&q=${search}&key=[key]` : '/data/videoList.json';
-            const url = search ? '/data/searchList.json' : '/data/videoList.json';
-            return axios.get(url).then(res => res.data.items);
+            const url = `https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=25&type=video&type=episode&order=date&${search ? `q=${search}` : ''}&regionCode=KR&key=${process.env.REACT_APP_API_KEY}`;
+            return axios.get(url, { onDownloadProgress: (e) => {
+                console.log(e);
+            }}).then(res => res.data.items);
         },
         refetchOnWindowFocus: false,
-        staleTime: 900000,
+        staleTime: 1000 * 60 * 5,
     })
 
     return (
@@ -22,8 +23,8 @@ export default function VideoList() {
             <ul className='flex flex-wrap mx-[5px] py-[20px]'>
                 {
                     videoData && videoData.map((item) => {
-                        const id = typeof item.id === 'string' ? item.id : item.id.videoId ? item.id.videoId : item.id.channelId;
-                        const { channelTitle, channelId, publishedAt, thumbnails, title, description, tags } = item.snippet;
+                        const id = item.id.videoId || item.id.playlistId;
+                        const { channelTitle, channelId, publishedAt, title, description, tags } = item.snippet;
                         const channelInfo = {
                             channelTitle,
                             title,
